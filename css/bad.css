@@ -1,0 +1,90 @@
+/* 清除基本样式 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #eee;
+}
+
+.box {
+	width: 1000px;
+	height: 450px;
+	margin: 60px auto;
+	position: relative;
+
+}
+
+.pic {
+	width: 160px;
+	padding: 10px 10px 15px;
+	background-color: white;
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.4);
+	z-index: 1;
+	transition: all 0.5s ease-in;
+	position: absolute;
+}
+
+.pic:hover {
+	box-shadow: 15px 15px 20px rgba(50, 50, 50, 0.4);
+	transform: rotate(0) scale(1.2);
+	--webkit-transform: rotate(0) scale(1.2);
+	z-index: 2;
+}
+
+.pic1 {
+	top: 100px;
+	left: 10px;
+	transform: rotate(5deg);
+}
+
+.pic2 {
+	top: 50px;
+	left: 180px;
+	transform: rotate(-40deg);
+}
+
+.pic3 {
+	top: 0px;
+	left: 360px;
+	transform: rotate(-10deg);
+}
+
+.pic4 {
+	top: 2px;
+	left: 560px;
+	transform: rotate(40deg);
+}
+
+.pic5 {
+	top: 100px;
+	left: 720px;
+	transform: rotate(-20deg);
+
+}
+
+.pic6 {
+	bottom: 0px;
+	left: 0px;
+	transform: rotate(70deg);
+}
+
+.pic7 {
+	bottom: 0px;
+	left: 180px;
+	transform: rotate(20deg);
+}
+
+.pic8 {
+	bottom: 0px;
+	left: 360px;
+	transform: rotate(-10deg);
+}
+
+.pic9 {
+	bottom: 0px;
+	left: 560px;
+	transform: rotate(40deg);
+}
